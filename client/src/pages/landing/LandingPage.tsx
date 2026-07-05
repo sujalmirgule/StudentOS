@@ -1,3 +1,4 @@
+import Navbar from "../../components/layout/Navbar";
 import Hero from "./Hero";
 import DashboardPreview from "./DashboardPreview";
 import Features from "./Features";
@@ -8,12 +9,14 @@ import Footer from "./Footer";
 export default function LandingPage() {
   return (
     <>
-          <Hero />
-    <DashboardPreview />
-    <Features />
-    <Testimonials />
-    <CTA />
-    <Footer />
+      <Navbar />
+
+      <Hero />
+      <DashboardPreview />
+      <Features />
+      <Testimonials />
+      <CTA />
+      <Footer />
     </>
   );
 }
